@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import toast from "react-hot-toast";
 
 //template_okl5cqb
 //service_68flnth
@@ -18,6 +19,11 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const pubKey = import.meta.env.VITE_EMAILJS_PUB_KEY;
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -31,26 +37,26 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_68flnth",
-        "template_okl5cqb",
+        serviceId,
+        templateId,
         {
           from_name: form.name,
-          to_name: "Youngking",
           from_email: form.email,
-          to_email: "youngkingm4406@gmail.com",
           message: form.message,
         },
-        "rxzbm5_90kHVlo3VT"
+        pubKey
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you! I will get back to you as soon as possible");
+          toast.success(
+            "Thank you! I will get back to you as soon as possible"
+          );
           setForm({ name: "", email: "", message: "" });
         },
         (error) => {
           setLoading(false);
-          alert("Something went wrong!");
+          toast.error("Something went wrong!");
           setForm({ name: "", email: "", message: "" });
         }
       );
