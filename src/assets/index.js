@@ -22,14 +22,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import onet from "./company/onetlogo.png";
+import mimilogo from "./company/mimil.png";
+import starlight from "./company/starlight.png";
 
 import dateme from "./dateme.png";
 import mikeshop from "./mike.png";
 import mikecollection from "./mcollection.png";
+
+import josh from "./josh.jpg";
+import mimi from "./mimi.jpg";
+import avatar from "./avatar.jpg";
 
 export {
   logo,
@@ -53,11 +59,16 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   shopify,
   starbucks,
   tesla,
+  mimilogo,
+  onet,
+  starlight,
   dateme,
   mikeshop,
   mikecollection,
+  josh,
+  mimi,
+  avatar,
 };

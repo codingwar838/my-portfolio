@@ -7,10 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import toast from "react-hot-toast";
-
-//template_okl5cqb
-//service_68flnth
-//rxzbm5_90kHVlo3VT
+import { useMediaQuery } from "react-responsive";
 
 const Contact = () => {
   const formRef = useRef();
@@ -25,6 +22,7 @@ const Contact = () => {
   const pubKey = import.meta.env.VITE_EMAILJS_PUB_KEY;
 
   const [loading, setLoading] = useState(false);
+  const smallScreen = useMediaQuery({ query: "(max-width: 930px)" });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -63,10 +61,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div
+      className={`xl:mt-12 flex gap-10 overflow-hidden ${
+        smallScreen ? "flex-col-reverse" : "flex-row"
+      }`}
+    >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -122,7 +124,7 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>

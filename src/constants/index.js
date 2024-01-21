@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  mimilogo,
+  onet,
+  starlight,
   dateme,
   mikeshop,
   mikecollection,
   threejs,
+  josh,
+  mimi,
+  avatar,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Fullstack Developer",
+    title: "Computer Science Instructor",
     icon: mobile,
   },
   {
@@ -116,55 +118,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React Developer",
-    company_name: "Starlight",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "Feb 2020 - Jan 2021",
-    points: [
-      "Developing and maintaining web applications using Next.js, React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "HeadStart",
-    icon: tesla,
+    company_name: "Mimi",
+    icon: mimilogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Jun 2022",
+    date: "Jun 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining Mimi dental clinic website existing codebase.",
+      "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing feedback to other developers.",
+      "Also working as the social media manager",
     ],
   },
   {
     title: "React & Node.js Developer",
     company_name: "Onet",
-    icon: shopify,
+    icon: onet,
     iconBg: "#383E56",
     date: "Jul 2022 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Next.js, React.js, Node.js, TypeScript, JavaScript Tailwind css, Sass, Redux toolkit, Firebase and other related technologies.",
+      "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Mimi",
-    icon: meta,
+    title: "Computer Science Instructor",
+    company_name: "Starlight College",
+    icon: starlight,
     iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
+    date: "Mar 2021 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Taught courses in data structures, algorithms, design patterns, programming languages and web development",
+      "Developed and delivered engaging lectures, assignments, projects and hands-on coding exercises for practical skill development.",
+      "Facilitated discussions on emerging technologies and industry trends.",
+      "Fostered a passion for technology and critical thinking among students.",
+    ],
+  },
+  {
+    title: "Computer Science Instructor",
+    company_name: "Headstart College",
+    icon: "",
+    iconBg: "#383E56",
+    date: "Feb 2019 - Jan 2021",
+    points: [
+      "Taught courses in data structures, algorithms, design patterns, programming languages and web development",
+      "Developed and delivered engaging lectures, assignments, projects and hands-on coding exercises for practical skill development.",
+      "Facilitated discussions on emerging technologies and industry trends.",
+      "Fostered a passion for technology and critical thinking among students.",
     ],
   },
 ];
@@ -172,27 +175,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Mike has proven to be one of the best, creative and passionate Software developer in Odua Telecoms.",
     name: "Odun David",
     designation: "CTO",
     company: "Onet",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: avatar,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Engineer Joshua",
-    designation: "CTO",
-    company: "Starlight",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Mike optimized our website, we gained more traffic by 60%. We can't thank him enough!",
     name: "Rita Luchi",
     designation: "CEO",
     company: "Mimi dental",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: mimi,
+  },
+  {
+    testimonial:
+      "I've never met a Software developer and computer science instructor as Mike, who is passionate with his job and truly cares about his students. ",
+    name: "Joshua Adeoye",
+    designation: "CTO",
+    company: "Starlight",
+    image: josh,
   },
 ];
 
@@ -216,7 +219,8 @@ const projects = [
       },
     ],
     image: dateme,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/youngking44/dateme",
+    live_demo_link: "http://dateme.onrender.com",
   },
   {
     name: "Mikeshop",
@@ -241,7 +245,8 @@ const projects = [
       },
     ],
     image: mikeshop,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/youngking44/mikeshop/",
+    live_demo_link: "https://youngking-mikeshop.onrender.com/",
   },
   {
     name: "Mike Collections",
@@ -266,7 +271,9 @@ const projects = [
       },
     ],
     image: mikecollection,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/youngking44/react-nodejs-ecommerce-01",
+    live_demo_link: "https://youngking-mikecollection.onrender.com/",
   },
 ];
 

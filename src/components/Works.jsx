@@ -14,14 +14,18 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="w-full md:w-[calc(calc(100%-20px)/2)]  lg:w-[calc(calc(100%-40px)/3)] "
+    >
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl  sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative h-[230px]">
           <img
             src={image}
             alt={name}
@@ -41,7 +45,14 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <div className="w-full flex justify-between items-center">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <span>
+              <a href={live_demo_link} target="_blank" className="underline">
+                Visit
+              </a>
+            </span>
+          </div>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
