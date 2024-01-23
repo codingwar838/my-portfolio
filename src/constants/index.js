@@ -15,7 +15,7 @@ import {
   git,
   figma,
   docker,
-  mimilogo,
+  olliepickett,
   onet,
   starlight,
   dateme,
@@ -118,25 +118,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Mimi",
-    icon: mimilogo,
+    title: "Frontend Developer",
+    company_name: "Olliepickett",
+    icon: olliepickett,
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Present",
-    points: [
-      "Developing and maintaining Mimi dental clinic website existing codebase.",
-      "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing feedback to other developers.",
-      "Also working as the social media manager",
-    ],
-  },
-  {
-    title: "React & Node.js Developer",
-    company_name: "Onet",
-    icon: onet,
-    iconBg: "#383E56",
-    date: "Jul 2022 - Jun 2023",
     points: [
       "Developing and maintaining web applications using Next.js, React.js, Node.js, TypeScript, JavaScript Tailwind css, Sass, Redux toolkit, Firebase and other related technologies.",
       "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
@@ -145,11 +131,24 @@ const experiences = [
     ],
   },
   {
-    title: "Computer Science Instructor",
+    title: "React & Node.js Developer",
+    company_name: "Onet",
+    icon: onet,
+    iconBg: "#383E56",
+    date: "Jul 2020 - Jun 2023",
+    points: [
+      "Developing and maintaining web applications using Next.js, React.js, Node.js, TypeScript, JavaScript Tailwind css, Sass, Redux toolkit, Firebase and other related technologies.",
+      "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing feedback to other developers.",
+    ],
+  },
+  {
+    title: "Computer Science Teacher",
     company_name: "Starlight College",
     icon: starlight,
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Jun 2022",
+    date: "Mar 2019 - Jun 2020",
     points: [
       "Taught courses in data structures, algorithms, design patterns, programming languages and web development",
       "Developed and delivered engaging lectures, assignments, projects and hands-on coding exercises for practical skill development.",
@@ -158,16 +157,16 @@ const experiences = [
     ],
   },
   {
-    title: "Computer Science Instructor",
+    title: "Mathematics Teacher",
     company_name: "Headstart College",
     icon: "",
     iconBg: "#383E56",
-    date: "Feb 2019 - Jan 2021",
+    date: "Feb 2017 - Jan 2019",
     points: [
-      "Taught courses in data structures, algorithms, design patterns, programming languages and web development",
-      "Developed and delivered engaging lectures, assignments, projects and hands-on coding exercises for practical skill development.",
-      "Facilitated discussions on emerging technologies and industry trends.",
-      "Fostered a passion for technology and critical thinking among students.",
+      "Taught courses like calculus, probability, geometry, statistic, linear algebra and many others.",
+      "Taught students how understanding of mathematical concepts enhances problem-solving skills and lays a solid foundation for various aspects of computer science.",
+      "Developed and delivered engaging lectures, assignments and projects.",
+      "Fostered a passion for critical thinking among students.",
     ],
   },
 ];
@@ -191,7 +190,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a Software developer and computer science instructor as Mike, who is passionate with his job and truly cares about his students. ",
+      "I've never met a Software developer and computer science teacher as Mike, who is passionate with his job and truly cares about his students. ",
     name: "Joshua Adeoye",
     designation: "CTO",
     company: "Starlight",

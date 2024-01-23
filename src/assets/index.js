@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import onet from "./company/onetlogo.png";
-import mimilogo from "./company/mimil.png";
+import olliepickett from "./company/olliepickett.png";
 import starlight from "./company/starlight.png";
 
 import dateme from "./dateme.png";
@@ -62,13 +62,13 @@ export {
   shopify,
   starbucks,
   tesla,
-  mimilogo,
+  mimi,
   onet,
   starlight,
   dateme,
   mikeshop,
   mikecollection,
   josh,
-  mimi,
+  olliepickett,
   avatar,
 };
