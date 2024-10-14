@@ -52,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Computer Science Instructor",
+    title: "Computer Science Teacher",
     icon: mobile,
   },
   {
