@@ -48,7 +48,12 @@ const ProjectCard = ({
           <div className="w-full flex justify-between items-center">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <span>
-              <a href={live_demo_link} target="_blank" className="underline">
+              <a
+                href={live_demo_link}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
                 Visit
               </a>
             </span>

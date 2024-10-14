@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -15,10 +14,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Mike</span>
+            Hi, {`I'm`} <span className="text-[#915eff]">Isaac</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Fullstack React developer <br className="sm:block hidden" />
+            {`I'm `}a Front End Developer, <br className="sm:block hidden" />
             and I develop modern <br className="sm:block hidden" /> web
             applications.
           </p>

@@ -44,20 +44,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React / Nextjs Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "Node.js Developer",
+    title: "Nextjs Developer",
     icon: backend,
-  },
-  {
-    title: "Computer Science Teacher",
-    icon: mobile,
   },
   {
     title: "Content Creator",
     icon: creator,
+  },
+  {
+    title: "Freelancer",
+    icon: mobile,
   },
 ];
 
@@ -119,54 +119,25 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Olliepickett",
-    icon: olliepickett,
+    company_name: "Fiverr (Freelancing)",
+    icon: "",
     iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using Next.js, React.js, Node.js, TypeScript, JavaScript Tailwind css, Sass, Redux toolkit, Firebase and other related technologies.",
-      "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
+      "Collaborated with UX/UI designers to translate design mockups into pixel-perfect, responsive interfaces, ensuring a consistent and visually appealing user experience across devices.",
+      "Implemented server-side rendering (SSR) and static site generation (SSG) using Next.js, enhancing the application's performance and SEO capabilities",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing feedback to other developers.",
     ],
   },
   {
-    title: "React & Node.js Developer",
-    company_name: "Onet",
-    icon: onet,
-    iconBg: "#383E56",
-    date: "Jul 2020 - Jun 2023",
-    points: [
-      "Developing and maintaining web applications using Next.js, React.js, Node.js, TypeScript, JavaScript Tailwind css, Sass, Redux toolkit, Firebase and other related technologies.",
-      "Collaborating with cross-functional teams including product managers, designers and other developers to develop high and good quality apps",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing feedback to other developers.",
-    ],
-  },
-  {
-    title: "Computer Science Teacher",
-    company_name: "Starlight College",
-    icon: starlight,
-    iconBg: "#E6DEDD",
-    date: "Mar 2019 - Jun 2020",
-    points: [
-      "Taught courses in data structures, algorithms, design patterns, programming languages and web development",
-      "Developed and delivered engaging lectures, assignments, projects and hands-on coding exercises for practical skill development.",
-      "Facilitated discussions on emerging technologies and industry trends.",
-      "Fostered a passion for technology and critical thinking among students.",
-    ],
-  },
-  {
-    title: "Mathematics Teacher",
-    company_name: "Headstart College",
+    title: "Frontend Developer",
+    company_name: "Upwork (Freelancing)",
     icon: "",
     iconBg: "#383E56",
-    date: "Feb 2017 - Jan 2019",
+    date: "Jan 2024 - Present",
     points: [
-      "Taught courses like calculus, probability, geometry, statistic, linear algebra and many others.",
-      "Taught students how understanding of mathematical concepts enhances problem-solving skills and lays a solid foundation for various aspects of computer science.",
-      "Developed and delivered engaging lectures, assignments and projects.",
-      "Fostered a passion for critical thinking among students.",
+      "Developed and maintained various modules of a complex web application, employing React.js/Next.js and TypeScript for the frontend and consumed .Net, Django, Spring Boot and REST APIs  ",
+      "Integrated third-party APIs and services to extend application functionalities, improving the overall user experience. ",
     ],
   },
 ];
@@ -174,27 +145,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Mike has proven to be one of the best, creative and passionate Software developer in Odua Telecoms.",
-    name: "Odun David",
-    designation: "CTO",
-    company: "Onet",
+      "Isaac has proven to be one of the best, creative and passionate Software developers in Fiverr",
+    name: "James Kelvin",
+    designation: "Digital Marketer",
+    company: "Headstart",
     image: avatar,
   },
   {
     testimonial:
-      "After Mike optimized our website, we gained more traffic by 60%. We can't thank him enough!",
-    name: "Rita Luchi",
-    designation: "CEO",
-    company: "Mimi dental",
-    image: mimi,
-  },
-  {
-    testimonial:
-      "I've never met a Software developer and computer science teacher as Mike, who is passionate with his job and truly cares about his students. ",
-    name: "Joshua Adeoye",
-    designation: "CTO",
-    company: "Starlight",
-    image: josh,
+      "After Isaac optimized our website, we gained more traffic by 70%. We can't thank him enough!",
+    name: "Mercy Dave",
+    designation: "Product Manager",
+    company: "Osetty",
+    image: avatar,
   },
 ];
 
@@ -218,13 +181,13 @@ const projects = [
       },
     ],
     image: dateme,
-    source_code_link: "https://github.com/youngking44/dateme",
+    source_code_link: "",
     live_demo_link: "http://dateme.onrender.com",
   },
   {
-    name: "Mikeshop",
+    name: "E-Shop",
     description:
-      "Mikeshop is an ecommerce web application that enables users to buy different electronic devices such as phones, laptops, watch, headphones e.t.c at their comfort of their homes.",
+      "E-Shop is an ecommerce web application that enables users to buy different electronic devices such as phones, laptops, watch, headphones e.t.c at their comfort of their homes.",
     tags: [
       {
         name: "react",
@@ -244,35 +207,8 @@ const projects = [
       },
     ],
     image: mikeshop,
-    source_code_link: "https://github.com/youngking44/mikeshop/",
-    live_demo_link: "https://youngking-mikeshop.onrender.com/",
-  },
-  {
-    name: "Mike Collections",
-    description:
-      "Mikecollection is an ecommerce application that enables users to buy different cute and latest wears such as clothes, shoes, bags e.t.c at their comfort of their homes.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: mikecollection,
-    source_code_link:
-      "https://github.com/youngking44/react-nodejs-ecommerce-01",
-    live_demo_link: "https://youngking-mikecollection.onrender.com/",
+    source_code_link: "",
+    live_demo_link: "https://just-electronics.onrender.com/",
   },
 ];
 
